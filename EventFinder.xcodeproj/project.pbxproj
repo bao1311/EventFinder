@@ -3,22 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4ED5FD362D9B360E00A9C7C1 /* EventFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED5FD352D9B360E00A9C7C1 /* EventFinderApp.swift */; };
-		4ED5FD382D9B360E00A9C7C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED5FD372D9B360E00A9C7C1 /* ContentView.swift */; };
 		4ED5FD3A2D9B361000A9C7C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED5FD392D9B361000A9C7C1 /* Assets.xcassets */; };
-		4ED5FD3D2D9B361000A9C7C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED5FD3C2D9B361000A9C7C1 /* Preview Assets.xcassets */; };
+		CD49A33B2DB192CA0042E233 /* EventFinderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49A33A2DB192C60042E233 /* EventFinderModel.swift */; };
+		CD49A33D2DB1930A0042E233 /* EventFinderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49A33C2DB193060042E233 /* EventFinderViewModel.swift */; };
+		CD49A33F2DB193350042E233 /* View_Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49A33E2DB1932C0042E233 /* View_Onboarding.swift */; };
+		CD49A3412DB193630042E233 /* View_EventSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49A3402DB1935D0042E233 /* View_EventSelection.swift */; };
+		CD49A3432DB1938A0042E233 /* View_EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49A3422DB193800042E233 /* View_EventList.swift */; };
+		CD49A3452DB193B70042E233 /* View_EventDetailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49A3442DB193A50042E233 /* View_EventDetailed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4ED5FD322D9B360E00A9C7C1 /* EventFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED5FD352D9B360E00A9C7C1 /* EventFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFinderApp.swift; sourceTree = "<group>"; };
-		4ED5FD372D9B360E00A9C7C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4ED5FD392D9B361000A9C7C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4ED5FD3C2D9B361000A9C7C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD49A33A2DB192C60042E233 /* EventFinderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFinderModel.swift; sourceTree = "<group>"; };
+		CD49A33C2DB193060042E233 /* EventFinderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFinderViewModel.swift; sourceTree = "<group>"; };
+		CD49A33E2DB1932C0042E233 /* View_Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Onboarding.swift; sourceTree = "<group>"; };
+		CD49A3402DB1935D0042E233 /* View_EventSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_EventSelection.swift; sourceTree = "<group>"; };
+		CD49A3422DB193800042E233 /* View_EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_EventList.swift; sourceTree = "<group>"; };
+		CD49A3442DB193A50042E233 /* View_EventDetailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_EventDetailed.swift; sourceTree = "<group>"; };
+		CD49A3462DB194C40042E233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +60,17 @@
 		4ED5FD342D9B360E00A9C7C1 /* EventFinder */ = {
 			isa = PBXGroup;
 			children = (
+				CD49A3462DB194C40042E233 /* Info.plist */,
 				4ED5FD352D9B360E00A9C7C1 /* EventFinderApp.swift */,
-				4ED5FD372D9B360E00A9C7C1 /* ContentView.swift */,
+				CD49A33A2DB192C60042E233 /* EventFinderModel.swift */,
+				CD49A33C2DB193060042E233 /* EventFinderViewModel.swift */,
+				CD49A33E2DB1932C0042E233 /* View_Onboarding.swift */,
+				CD49A3402DB1935D0042E233 /* View_EventSelection.swift */,
+				CD49A3422DB193800042E233 /* View_EventList.swift */,
+				CD49A3442DB193A50042E233 /* View_EventDetailed.swift */,
 				4ED5FD392D9B361000A9C7C1 /* Assets.xcassets */,
-				4ED5FD3B2D9B361000A9C7C1 /* Preview Content */,
 			);
 			path = EventFinder;
-			sourceTree = "<group>";
-		};
-		4ED5FD3B2D9B361000A9C7C1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4ED5FD3C2D9B361000A9C7C1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +109,6 @@
 				};
 			};
 			buildConfigurationList = 4ED5FD2D2D9B360E00A9C7C1 /* Build configuration list for PBXProject "EventFinder" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +116,7 @@
 				Base,
 			);
 			mainGroup = 4ED5FD292D9B360E00A9C7C1;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 4ED5FD332D9B360E00A9C7C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +131,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ED5FD3D2D9B361000A9C7C1 /* Preview Assets.xcassets in Resources */,
 				4ED5FD3A2D9B361000A9C7C1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +142,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ED5FD382D9B360E00A9C7C1 /* ContentView.swift in Sources */,
+				CD49A3412DB193630042E233 /* View_EventSelection.swift in Sources */,
+				CD49A33B2DB192CA0042E233 /* EventFinderModel.swift in Sources */,
+				CD49A33F2DB193350042E233 /* View_Onboarding.swift in Sources */,
+				CD49A3432DB1938A0042E233 /* View_EventList.swift in Sources */,
+				CD49A33D2DB1930A0042E233 /* EventFinderViewModel.swift in Sources */,
+				CD49A3452DB193B70042E233 /* View_EventDetailed.swift in Sources */,
 				4ED5FD362D9B360E00A9C7C1 /* EventFinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,17 +284,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EventFinder/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EventFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CSE335.EventFinder;
+				PRODUCT_BUNDLE_IDENTIFIER = CSE335.EventFinderFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -302,17 +314,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EventFinder/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EventFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CSE335.EventFinder;
+				PRODUCT_BUNDLE_IDENTIFIER = CSE335.EventFinderFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
